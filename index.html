@@ -36,7 +36,11 @@
             </div>
           </div>
           </p>
-          <div style="font-size:50%;color:#E1EAF4">2023</div>
+          <p id="currentyear" style="font-size:50%;color:#E1EAF4"></p>
+          <script>
+            var currentYear = new Date().getFullYear();
+            document.getElementById("currentyear").innerHTML = currentYear;
+          </script>
           <p style="margin-bottom:170px;"></p>
         </td></tr></tbody></table>
     </body>
